@@ -15,6 +15,11 @@ def multiplication(num1, num2):
 def divi(num1, num2):
   return num1 / num2
 
+def return_values():
+  num1 = int(input("Ingresa tu primer valor: "))
+  num2 = int(input("Ingresa tu sugundo valor: "))
+  return 
+
 if __name__ == '__main__':
     message = f"Calculadora: \n Elige una opcion \n 1 - suma \n 2 - resta \n 3 - multiplicacion \n 4 - divición  \n"
     while True:
